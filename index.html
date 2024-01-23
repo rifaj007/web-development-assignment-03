@@ -43,9 +43,9 @@
 <body class="font-manrope mx-auto max-w-[1440px]">
 
     <!-- header section start -->
-    <header class="xl:px-[135px] pt-16 pb-12">
+    <header class="xl:px-[135px] pt-16 pb-24">
         <nav>
-            <div class="navbar p-0">
+            <div class="navbar p-0 pb-12">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -67,11 +67,11 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 text-[#424247] text-base font-normal gap-3">
-                        <li class="hover:text-[#FF4240] hover:bg-transparent"><a href="#">Home</a></li>
-                        <li class="hover:text-[#FF4240]"><a href="#">About</a></li>
-                        <li class="hover:text-[#FF4240]"><a href="#">Pages</a></li>
-                        <li class="hover:text-[#FF4240]"><a href="#">Blog</a></li>
-                        <li class="hover:text-[#FF4240]"><a href="#">Contact</a></li>
+                        <li class="hover:text-[#FF4240]"><a class="hover:bg-transparent" href="#">Home</a></li>
+                        <li class="hover:text-[#FF4240]"><a class="hover:bg-transparent" href="#">About</a></li>
+                        <li class="hover:text-[#FF4240]"><a class="hover:bg-transparent" href="#">Pages</a></li>
+                        <li class="hover:text-[#FF4240]"><a class="hover:bg-transparent" href="#">Blog</a></li>
+                        <li class="hover:text-[#FF4240]"><a class="hover:bg-transparent" href="#">Contact</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end gap-8">
@@ -82,6 +82,72 @@
                 </div>
             </div>
         </nav>
+
+        <!-- banner section start -->
+        <section>
+            <div class="carousel w-full rounded-2xl">
+                <!-- slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full flex-col xl:flex-row">
+                    <img src="Images/banner.png" class="w-full" />
+                    <div
+                        class="absolute flex justify-between xl:justify-normal xl:bottom-8 xl:left-8 xl:top-auto xl:translate-y-0 transform -translate-y-1/2 left-5 right-5 top-1/2 xl:gap-4">
+                        <a href="#slide4"
+                            class="btn btn-circle bg-[#131318] text-white hover:bg-[#131318] border-transparent">❮</a>
+                        <a href="#slide2"
+                            class="btn btn-circle bg-[#131318] text-white hover:bg-[#131318] border-transparent">❯</a>
+                    </div>
+                    <!-- slider card -->
+                    <div class="xl:absolute bg-[#131318] p-8 w-[570px] rounded-2xl right-8 bottom-8">
+                        <h2 class="text-white text-2xl font-extrabold mb-4">Meet all the heroes from the field</h2>
+                        <p class="text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                            turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+                </div>
+                <!-- slide 2 -->
+                <div id="slide2" class="carousel-item relative w-full flex-col xl:flex-row">
+                    <img src="Images/banner.png" class="w-full" />
+                    <div class="absolute flex justify-between xl:justify-normal xl:bottom-8 xl:left-8 xl:top-auto xl:translate-y-0 transform -translate-y-1/2 left-5 right-5 top-1/2 xl:gap-4">
+                        <a href="#slide1" class="btn btn-circle bg-[#131318] text-white hover:bg-[#131318] border-transparent">❮</a>
+                        <a href="#slide3" class="btn btn-circle bg-[#131318] text-white hover:bg-[#131318] border-transparent">❯</a>
+                    </div>
+                    <!-- slider card -->
+                    <div class="xl:absolute bg-[#131318] p-8 w-[570px] rounded-2xl right-8 bottom-8">
+                        <h2 class="text-white text-2xl font-extrabold mb-4">Meet all the heroes from the field</h2>
+                        <p class="text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                            turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+                </div>
+                <!-- slide 3 -->
+                <div id="slide3" class="carousel-item relative w-full flex-col xl:flex-row">
+                    <img src="Images/banner.png" class="w-full" />
+                    <div class="absolute flex justify-between xl:justify-normal xl:bottom-8 xl:left-8 xl:top-auto xl:translate-y-0 transform -translate-y-1/2 left-5 right-5 top-1/2 xl:gap-4">
+                        <a href="#slide2" class="btn btn-circle bg-[#131318] text-white hover:bg-[#131318] border-transparent">❮</a>
+                        <a href="#slide4" class="btn btn-circle bg-[#131318] text-white hover:bg-[#131318] border-transparent">❯</a>
+                    </div>
+                    <!-- slider card -->
+                    <div class="xl:absolute bg-[#131318] p-8 w-[570px] rounded-2xl right-8 bottom-8">
+                        <h2 class="text-white text-2xl font-extrabold mb-4">Meet all the heroes from the field</h2>
+                        <p class="text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                            turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+                </div>
+                <!-- slide 4 -->
+                <div id="slide4" class="carousel-item relative w-full flex-col xl:flex-row">
+                    <img src="Images/banner.png" class="w-full" />
+                    <div class="absolute flex justify-between xl:justify-normal xl:bottom-8 xl:left-8 xl:top-auto xl:translate-y-0 transform -translate-y-1/2 left-5 right-5 top-1/2 xl:gap-4">
+                        <a href="#slide3" class="btn btn-circle bg-[#131318] text-white hover:bg-[#131318] border-transparent">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-[#131318] text-white hover:bg-[#131318] border-transparent">❯</a>
+                    </div>
+                    <!-- slider card -->
+                    <div class="xl:absolute bg-[#131318] p-8 w-[570px] rounded-2xl right-8 bottom-8">
+                        <h2 class="text-white text-2xl font-extrabold mb-4">Meet all the heroes from the field</h2>
+                        <p class="text-[#FFFFFF99]">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                            turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner section end -->
     </header>
     <!-- header section end -->
 
