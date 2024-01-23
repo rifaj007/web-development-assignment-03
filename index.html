@@ -16,6 +16,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
 
+    <!-- custom colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/de25d92105.js" crossorigin="anonymous"></script>
+
     <!-- common style -->
     <style>
         .font-manrope {
@@ -24,8 +40,54 @@
     </style>
 </head>
 
-<body class="font-manrope">
+<body class="font-manrope mx-auto max-w-[1440px]">
 
+    <!-- header section start -->
+    <header class="xl:px-[135px] pt-16 pb-12">
+        <nav>
+            <div class="navbar p-0">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-4xl font-extrabold text-[#131318]">Hockey<span class="text-[#FF4240]">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-[#424247] text-base font-normal gap-3">
+                        <li class="hover:text-[#FF4240] hover:bg-transparent"><a href="#">Home</a></li>
+                        <li class="hover:text-[#FF4240]"><a href="#">About</a></li>
+                        <li class="hover:text-[#FF4240]"><a href="#">Pages</a></li>
+                        <li class="hover:text-[#FF4240]"><a href="#">Blog</a></li>
+                        <li class="hover:text-[#FF4240]"><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end gap-8">
+                    <i class="fa-solid fa-magnifying-glass text-[#89898B] text-2xl cursor-pointer"></i>
+                    <a
+                        class="bg-[#FF4240] px-6 py-4 text-white inline-block rounded-lg text-xl font-bold cursor-pointer">Get
+                        Ticket</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header section end -->
+
+    <main></main>
+
+    <footer></footer>
 </body>
 
 </html>
