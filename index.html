@@ -641,7 +641,8 @@
             <!-- get in touch wrapper start -->
             <div class="flex flex-col lg:flex-row gap-6 mb-12">
                 <!-- get in touch contact list container start -->
-                <div class="border rounded-2xl border-[#1313181A] w-full lg:w-[400px] xl:w-[475px] p-6 xl:p-12 space-y-6">
+                <div
+                    class="border rounded-2xl border-[#1313181A] w-full lg:w-[400px] xl:w-[475px] p-6 xl:p-12 space-y-6">
                     <!-- contact list 1 -->
                     <div class="bg-[#BCED6D1A] rounded-2xl p-6 lg:p-8 lg:pb-12">
                         <div class="mb-6"> <img src="Images/contact-icon-1.png" alt=""></div>
@@ -655,7 +656,7 @@
                     <div class="bg-[#FDDD5F1A] rounded-2xl p-8 pb-12">
                         <div class="mb-6"> <img src="Images/contact-icon-2.png" alt=""></div>
                         <div class="leading-8">
-                            <p class="text-[#13131866] text-base font-normal">Email :  </p>
+                            <p class="text-[#13131866] text-base font-normal">Email : </p>
                             <h4 class="text-[#131318] text-lg font-extrabold"> hockeys@support.com</h4>
                         </div>
                     </div>
@@ -678,40 +679,41 @@
                         <!-- 1 -->
                         <div>
                             <label class="text-[#131318] text-xl font-bold block mb-4" for="name">Your Name</label>
-                            <input class="bg-[#13131808] w-full text-[#1313184D] p-5 text-base font-normal rounded-xl" id="name"
-                                type="text" placeholder="Enter your full name">
+                            <input class="bg-[#13131808] w-full text-[#1313184D] p-5 text-base font-normal rounded-xl"
+                                id="name" type="text" placeholder="Enter your full name">
                         </div>
 
                         <!-- 2 -->
                         <div>
                             <label class="text-[#131318] text-xl font-bold block mb-4" for="email">Your Email</label>
-                            <input class="bg-[#13131808] w-full text-[#1313184D] p-5 text-base font-normal rounded-xl" id="email"
-                                type="text" placeholder="Enter your email">
+                            <input class="bg-[#13131808] w-full text-[#1313184D] p-5 text-base font-normal rounded-xl"
+                                id="email" type="text" placeholder="Enter your email">
                         </div>
 
                         <!-- 3 -->
                         <div>
                             <label class="text-[#131318] text-xl font-bold block mb-4" for="subject">Subject</label>
-                            <input class="bg-[#13131808] w-full text-[#1313184D] p-5 text-base font-normal rounded-xl" id="subject"
-                                type="text" placeholder="Enter your subject">
+                            <input class="bg-[#13131808] w-full text-[#1313184D] p-5 text-base font-normal rounded-xl"
+                                id="subject" type="text" placeholder="Enter your subject">
                         </div>
 
                         <!-- 4 -->
                         <div>
                             <label class="text-[#131318] text-xl font-bold block mb-4" for="phone">Phone Number</label>
-                            <input class="bg-[#13131808] w-full text-[#1313184D] p-5 text-base font-normal rounded-xl" id="phone"
-                                type="text" placeholder="Enter your phone number">
+                            <input class="bg-[#13131808] w-full text-[#1313184D] p-5 text-base font-normal rounded-xl"
+                                id="phone" type="text" placeholder="Enter your phone number">
                         </div>
 
                         <!-- 5 -->
                         <div class="lg:col-span-2">
                             <label class="text-[#131318] text-xl font-bold block mb-4" for="message">Message</label>
-                            <textarea class="bg-[#13131808] w-full text-[#1313184D] p-5 text-base font-normal h-[200px] lg:h-[370px] rounded-xl"
-                                id="message" type="text" placeholder="Write your message" 
-                                ></textarea>
+                            <textarea
+                                class="bg-[#13131808] w-full text-[#1313184D] p-5 text-base font-normal h-[200px] lg:h-[370px] rounded-xl"
+                                id="message" type="text" placeholder="Write your message"></textarea>
                         </div>
 
-                        <button class="lg:col-span-2 text-white text-xl font-bold bg-[#FF4240] rounded-xl py-4 px-6 " type="submit">Send Message</button>
+                        <button class="lg:col-span-2 text-white text-xl font-bold bg-[#FF4240] rounded-xl py-4 px-6 "
+                            type="submit">Send Message</button>
                     </form>
                 </div>
             </div>
@@ -735,12 +737,12 @@
     </main>
 
     <!-- footer section start -->
-    <footer class="bg-[#131318]">
+    <footer class="bg-[#131318] py-[100px]">
         <!-- footer container start -->
         <div class="px-5 sm:px-8 lg:px-10 xl:px-[135px]">
             <!-- footer wrapper start -->
-            <div class="flex">
-                <div>
+            <div class="flex gap-[155px] justify-between">
+                <div class="flex-1">
                     <h2 class="text-white text-[28px] font-extrabold">Get In Touch</h2>
                     <p class="text-[#FFFFFF99] text-base font-medium">Dit amet consectetur. Condimentum adipiscing
                         aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
@@ -753,7 +755,9 @@
                     </ul>
                 </div>
 
-                <div class="grid grid-cols-3">
+                <div class="flex flex-1 justify-between">
+
+                    <!-- item 1 -->
                     <div>
                         <h3 class="text-white text-lg font-bold mb-5 ">Company</h3>
 
@@ -766,30 +770,32 @@
                         </ul>
                     </div>
 
+                    <!-- item 2 -->
                     <div>
-                        <h3 class="text-white text-lg font-bold mb-5 ">Company</h3>
+                        <h3 class="text-white text-lg font-bold mb-5 ">Support</h3>
 
                         <ul class="text-[#FFFFFF99] text-base font-medium leading-10">
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Leadership</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">News & Article</a></li>
-                            <li><a href="#">Legal Notice</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Ticket Support</a></li>
+                            <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
 
+                    <!-- item 3 -->
                     <div>
-                        <h3 class="text-white text-lg font-bold mb-5 ">Company</h3>
+                        <h3 class="text-white text-lg font-bold mb-5 ">Services</h3>
 
                         <ul class="text-[#FFFFFF99] text-base font-medium leading-10">
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Leadership</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">News & Article</a></li>
-                            <li><a href="#">Legal Notice</a></li>
+                            <li><a href="#">Academy</a></li>
+                            <li><a href="#">Group Lesson</a></li>
+                            <li><a href="#">Private Lesson</a></li>
+                            <li><a href="#">Hockeys for kids</a></li>
+                            <li><a href="#">Hockeys for Adult</a></li>
                         </ul>
                     </div>
                 </div>
+
             </div>
             <!-- footer wrapper end -->
         </div>
