@@ -37,6 +37,10 @@
         .font-manrope {
             font-family: 'Manrope', sans-serif;
         }
+
+        .radial-progress {
+            --size: 120px;
+        }
     </style>
 </head>
 
@@ -186,12 +190,69 @@
     <main class="px-5 sm:px-8 lg:px-10 xl:px-[135px]">
 
         <!-- Professional Hockeys Club section start -->
-        <section class="pb-24">
+        <section class="pb-10 sm:pb-20 lg:pb-24">
+
+            <!-- section tittle start -->
+            <div
+                class="text-center border-y border-dashed border-[#13131833] py-6 sm:py-8 md:px-16 lg:px-64 mb-6 sm:mb-12">
+                <h1 class="text-[#131318] text-[22px] md:text-[28px] lg:text-4xl font-extrabold mb-4 md:mb-5 lg:mb-6">
+                    Professional Hockeys Club</h1>
+                <p class="text-[#13131863] text-[14px] md:text-base">Dit amet consectetur. Condimentum dignissim
+                    adipiscing aliquam turpis
+                    placerat dolor. Purus urna in
+                    sit nullam proin. </p>
+            </div>
+            <!-- section tittle end -->
 
             <!-- features container -->
-            <div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-6 lg:gap-y-0 lg:grid-cols-4 text-center">
+                <!-- item 1 -->
                 <div>
-                    <div class="radial-progress bg-[#E7E7E8]" style="--value:87;" role="progressbar">87%</div>
+                    <div class="radial-progress text-[#FF4240] mb-5" style="--value:87;" role="progressbar">
+                        <span class="text-[#131318] text-[28px] font-extrabold">87%</span></div>
+
+                    <div>
+                        <h4 class="text-[#131318] text-xl font-semibold mb-4">Prayer Facility</h4>
+                        <p class="text-[#13131899] text-base font-normal">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
+                    </div>
+                </div>
+
+                <!-- item 2 -->
+                <div>
+                    <div class="radial-progress text-[#49D293] mb-5" style="--value:95;" role="progressbar"><span
+                            class="text-[#131318] text-[28px] font-extrabold">95%</span></div>
+
+                    <div>
+                        <h4 class="text-[#131318] text-xl font-semibold mb-4">Experienced Coach</h4>
+                        <p class="text-[#13131899] text-base font-normal">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
+                    </div>
+                </div>
+
+
+                <!-- item 3 -->
+                <div>
+                    <div class="radial-progress text-[#FFB546] mb-5" style="--value:90;" role="progressbar"><span
+                            class="text-[#131318] text-[28px] font-extrabold">90%</span></div>
+
+                    <div>
+                        <h4 class="text-[#131318] text-xl font-semibold mb-4">Senior Player</h4>
+                        <p class="text-[#13131899] text-base font-normal">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
+                    </div>
+                </div>
+
+                <!-- item 4 -->
+                <div>
+                    <div class="radial-progress text-[#4C8DF1] mb-5" style="--value:80;" role="progressbar"><span
+                            class="text-[#131318] text-[28px] font-extrabold">80%</span></div>
+
+                    <div>
+                        <h4 class="text-[#131318] text-xl font-semibold mb-4">Training Ground</h4>
+                        <p class="text-[#13131899] text-base font-normal">Amet consectetur. Condimentum dignissim
+                            adipiscing .</p>
+                    </div>
                 </div>
             </div>
         </section>
