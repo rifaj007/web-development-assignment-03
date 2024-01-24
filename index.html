@@ -798,28 +798,31 @@
     </main>
 
     <!-- footer section start -->
-    <footer class="bg-[#131318] py-[100px]">
+    <footer class="bg-[#131318] py-10 sm:py-20 lg:py-[100px]">
         <!-- footer container start -->
         <div class="px-5 sm:px-8 lg:px-10 xl:px-[135px]">
             <!-- footer wrapper start -->
-            <div class="flex gap-[155px] justify-between">
-                <div class="flex-1">
-                    <h2 class="text-white text-[28px] font-extrabold">Get In Touch</h2>
-                    <p class="text-[#FFFFFF99] text-base font-medium">Dit amet consectetur. Condimentum adipiscing
-                        aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
-                    <ul class="text-[#FFFFFFCC] text-base font-medium">
-                        <li class="flex items-center gap-4"><i
+            <div class="flex flex-col lg:flex-row gap-10 lg:gap-[70px] xl:gap-[135px] ">
+                <!-- footer get in touch -->
+                <div class="text-center lg:text-start">
+                    <h2 class="text-white text-[28px] font-extrabold mb-4">Get In Touch</h2>
+                    <p class="text-[#FFFFFF99] text-base font-medium mb-6">Dit amet consectetur. Condimentum <br>
+                        adipiscing
+                        aliquam turpis placerat dolor. Purus <br> urna in sit nullam proin. </p>
+
+                    <ul class="text-[#FFFFFFCC] text-base font-medium ">
+                        <li class="flex items-center justify-center lg:justify-start gap-4 mb-3"><i
                                 class="fa-regular fa-envelope text-[#FF4240] text-2xl"></i> <a
                                 href="#">hockeys@support.com</a></li>
-                        <li class="flex items-center gap-4"><i class="fa-solid fa-phone  text-[#FF4240] text-2xl"></i>
+                        <li class="flex items-center gap-4 justify-center lg:justify-start"><i
+                                class="fa-solid fa-phone  text-[#FF4240] text-2xl"></i>
                             <a href="#">(+62) 123-321-543</a></li>
                     </ul>
                 </div>
 
-                <div class="flex flex-1 justify-between">
-
+                <div class="grid grid-cols-2 sm:grid-cols-3 flex-1 gap-y-10 gap-x-5 lg:gap-[25px] xl:gap-[130px] text-center lg:text-start">
                     <!-- item 1 -->
-                    <div>
+                    <div class="">
                         <h3 class="text-white text-lg font-bold mb-5 ">Company</h3>
 
                         <ul class="text-[#FFFFFF99] text-base font-medium leading-10">
@@ -832,7 +835,7 @@
                     </div>
 
                     <!-- item 2 -->
-                    <div>
+                    <div class="">
                         <h3 class="text-white text-lg font-bold mb-5 ">Support</h3>
 
                         <ul class="text-[#FFFFFF99] text-base font-medium leading-10">
@@ -844,7 +847,7 @@
                     </div>
 
                     <!-- item 3 -->
-                    <div>
+                    <div class="col-span-2 sm:col-span-1">
                         <h3 class="text-white text-lg font-bold mb-5 ">Services</h3>
 
                         <ul class="text-[#FFFFFF99] text-base font-medium leading-10">
